@@ -76,6 +76,8 @@ body {
 h2, h3 { font-weight: 600; line-height: 1.25; }
 p { margin: 0 0 1rem; }
 
+[hidden] { display: none !important; }
+
 /* ---- utilities ----------------------------------------------------- */
 .sr-only {
   position: absolute !important;
@@ -86,16 +88,7 @@ p { margin: 0 0 1rem; }
 }
 .nowrap { white-space: nowrap; }
 
-.skip-link {
-  position: absolute;
-  left: 0.5rem; top: -3rem;
-  background: var(--bg);
-  color: var(--text);
-  padding: 0.6rem 1rem;
-  border: 1px solid var(--text);
-  z-index: 50;
-}
-.skip-link:focus { top: 0.5rem; }
+
 
 /* ---- header (very quiet) ------------------------------------------- */
 .app-header {

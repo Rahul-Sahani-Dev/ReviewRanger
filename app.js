@@ -195,7 +195,8 @@ function updateHeaderToggles() {
     t.setAttribute("aria-label", "Change colour theme. Currently " + state.settings.theme);
   }
 }
-function toggleMenu() {
+function toggleMenu(e) {
+  if (e) e.stopPropagation();
   const nav = $("#menu");
   const btn = $("#menu-btn");
   const open = nav.hasAttribute("hidden");
