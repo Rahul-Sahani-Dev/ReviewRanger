@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>ReviewRanger — learn to read and review code</title>
+    <meta
+      name="description"
+      content="A free, offline, private guide that teaches absolute beginners to read and review code. Nothing here is ever marked wrong."
+    />
+    <meta name="theme-color" content="#0f7d74" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0e1620" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./icons/icon-180.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to the puzzle</a>
+
+    <header id="app-header" class="app-header"></header>
+
+    <main id="main" class="app-main" tabindex="-1"></main>
+
+    <footer class="app-footer">
+      <p>
+        Free and open. Works offline. Nothing about you is collected.
+        <span class="nowrap">ReviewRanger by YouCantBearMe and contributors.</span>
+      </p>
+    </footer>
+
+    <!-- screen-reader announcements -->
+    <div id="sr-status" class="sr-only" role="status" aria-live="polite"></div>
+
+    <noscript>
+      <p style="padding: 1rem; max-width: 40rem; margin: 0 auto">
+        ReviewRanger needs JavaScript to run its puzzles. It still keeps nothing
+        about you and sends nothing anywhere — it just runs in your browser.
+        Please turn JavaScript on for this page.
+      </p>
+    </noscript>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

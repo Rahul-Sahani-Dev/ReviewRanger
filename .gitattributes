@@ -1,0 +1,17 @@
+# Keep the app byte-identical on every machine.
+# Normalize all text to LF line endings in the repository.
+* text=auto eol=lf
+
+# Binary assets must never be line-ending normalized.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+
+# These are text, even though some tools guess otherwise.
+*.svg text
+*.webmanifest text
+*.js text
+*.css text
+*.html text
+*.md text

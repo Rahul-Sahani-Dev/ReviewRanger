@@ -1,0 +1,21 @@
+# ReviewRanger is a zero-build static app — nothing here is needed to run it.
+# This file just keeps local tooling and junk out of the repository.
+
+# Local preview / editor tooling
+.claude/
+.vscode/
+.idea/
+
+# Archives (e.g. the downloadable zip)
+*.zip
+
+# Dependencies (the app uses none; this guards against future tooling)
+node_modules/
+
+# OS and editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+*.log
