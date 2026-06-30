@@ -69,4 +69,4 @@ Fixes to wording, accessibility, translations of the interface, and bug fixes ar
 
 ## Licensing of contributions
 
-By contributing, you agree that your **code** is licensed under [GPL-3.0](LICENSE) and your **content** (puzzles and learner-facing words) under **CC BY-SA 4.0** (see [CONTENT-LICENSE.md](CONTENT-LICENSE.md)). You will be counted among "ReviewRanger by YouCantBearMe and contributors."
+By contributing, you agree that your **code** is licensed under [GPL-3.0](LICENSE) and your **content** (puzzles and learner-facing words) under **CC BY-SA 4.0** (see [CONTENT-LICENSE.md](CONTENT-LICENSE.md)). You will be counted among "ReviewRanger by Rahul Sahani and contributors."

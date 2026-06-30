@@ -158,7 +158,7 @@ The whole point is that a non-coder only ever edits `content.js`.
 
 - **Code:** GPL-3.0 (`LICENSE`).
 - **Content** (puzzles and words): CC BY-SA 4.0 (`CONTENT-LICENSE.md`).
-- Keep the attribution line: **"ReviewRanger by YouCantBearMe and contributors."**
+- Keep the attribution line: **"ReviewRanger by Rahul Sahani and contributors."**
 
 Forks and remixes are welcome and encouraged — that is what these licenses are
 for. Because there is no server, there is no data controller and nothing is

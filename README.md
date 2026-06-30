@@ -129,7 +129,7 @@ ReviewRanger targets **WCAG 2.1 AA**. Keyboard-only and touch-only both complete
 
 - **Code:** [GPL-3.0](LICENSE).
 - **Content** (puzzles and learner-facing words): **CC BY-SA 4.0** — see [CONTENT-LICENSE.md](CONTENT-LICENSE.md).
-- Attribution string: **"ReviewRanger by YouCantBearMe and contributors."**
+- Attribution string: **"ReviewRanger by Rahul Sahani and contributors."**
 
 Because there is no server, there is no data controller.
 

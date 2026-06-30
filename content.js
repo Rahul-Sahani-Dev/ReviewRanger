@@ -37,7 +37,7 @@ export const content = {
 
   /* The attribution line, shown in the app and required by the content
      licence (CC BY-SA 4.0). Keep it, add yourself to "and contributors". */
-  attribution: "ReviewRanger by YouCantBearMe and contributors.",
+  attribution: "ReviewRanger by Rahul Sahani and contributors.",
 
   /* -------------------------------------------------------------------
      The mentor's voice.

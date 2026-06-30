@@ -144,7 +144,7 @@ WCAG 2.1 AA. Keyboard-only and touch-only both complete a full session. Screen-r
 
 ## 13. Repo deliverables
 
-The static app files. One separate, commented content file. The manifest and service worker. A README explaining what it is, how to run it, how to deploy it (enable GitHub Pages), and a friendly "Add your own puzzle" guide aimed at a non-coder. A LICENSE (GPL-3.0). A content license note (CC BY-SA 4.0) and the attribution string "ReviewRanger by YouCantBearMe and contributors." A CONTRIBUTING note and a simple pull-request template inviting new puzzles.
+The static app files. One separate, commented content file. The manifest and service worker. A README explaining what it is, how to run it, how to deploy it (enable GitHub Pages), and a friendly "Add your own puzzle" guide aimed at a non-coder. A LICENSE (GPL-3.0). A content license note (CC BY-SA 4.0) and the attribution string "ReviewRanger by Rahul Sahani and contributors." A CONTRIBUTING note and a simple pull-request template inviting new puzzles.
 
 
 
@@ -156,4 +156,4 @@ A nervous beginner, on a cheap phone and on a desktop browser, offline, can open
 
 ## 15. License and identity
 
-GPL-3.0 code, CC BY-SA 4.0 content, copyright YouCantBearMe, on the separate GitHub account, no server so no data controller.
+GPL-3.0 code, CC BY-SA 4.0 content, copyright Rahul Sahani, on the separate GitHub account, no server so no data controller.

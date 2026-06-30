@@ -21,12 +21,12 @@ Under these terms:
 
 ## Attribution string
 
-> ReviewRanger by YouCantBearMe and contributors.
+> ReviewRanger by Rahul Sahani and contributors.
 
 ## Note on the code
 
 The **code** of ReviewRanger (everything that is not learner-facing content) is
 licensed separately under **GPL-3.0** — see [`LICENSE`](LICENSE).
 
-Copyright © YouCantBearMe and contributors. Because ReviewRanger runs entirely on the
+Copyright © Rahul Sahani and contributors. Because ReviewRanger runs entirely on the
 device with no server, there is no data controller.
