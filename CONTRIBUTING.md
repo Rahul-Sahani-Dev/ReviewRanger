@@ -1,6 +1,6 @@
 # Contributing to ReviewRanger
 
-Thank you for being here. The most valuable thing you can add is **a new puzzle** — and you do not need to be a programmer to do it. If you can fill in a form made of words, you can contribute.
+Thank you for being here. The most valuable thing you can add is **a new puzzle** - and you do not need to be a programmer to do it. If you can fill in a form made of words, you can contribute.
 
 Everything learners see lives in one file: [`content.js`](content.js). You will not need to touch any other file.
 
@@ -21,26 +21,26 @@ If a change would break either promise, it does not belong here, however clever 
 
 1. Open [`content.js`](content.js).
 2. Find the theme you want by its `id`:
-   - `intent` — *Does the code do what it claims?*
-   - `edges` — *The edges* (boundaries, off-by-one, empty or zero cases)
-   - `slips` — *The small slips* (a swapped value, a wrong name, a copy-paste leftover)
-   - `comments` — *Does the comment still match the code?*
+   - `intent` - *Does the code do what it claims?*
+   - `edges` - *The edges* (boundaries, off-by-one, empty or zero cases)
+   - `slips` - *The small slips* (a swapped value, a wrong name, a copy-paste leftover)
+   - `comments` - *Does the comment still match the code?*
 3. Copy a whole existing puzzle block (from one `{` to its matching `},`) and paste it next to the others inside that theme's `puzzles: [ ... ]` list.
 4. Edit the text inside the quotes. Keep the labels outside the quotes (`promise:`, `snippet:`, `findings:`, `lines:`, `summary:`, `why:`, `rule:`, `fix:`).
 5. Give the puzzle a new, unique `id`.
-6. Commit. The puzzle appears the next time the app loads — no build step.
+6. Commit. The puzzle appears the next time the app loads - no build step.
 
 ### The shape of a puzzle
 
-- `id` — a short unique label, e.g. `"edges-temperature"`.
-- `promise` — one plain sentence: what the code is meant to do.
-- `snippet` — the lines of code, as a list of strings. The **first line is line 1**.
-- `findings` — a list of problems. Each finding has:
-  - `lines` — the line number(s) the problem lives on (must exist in the snippet).
-  - `summary` — one sentence naming the mismatch.
-  - `why` — why it matters, in plain words, with a concrete example.
-  - `rule` — the habit a reviewer should take away.
-  - `fix` — what to change.
+- `id` - a short unique label, e.g. `"edges-temperature"`.
+- `promise` - one plain sentence: what the code is meant to do.
+- `snippet` - the lines of code, as a list of strings. The **first line is line 1**.
+- `findings` - a list of problems. Each finding has:
+  - `lines` - the line number(s) the problem lives on (must exist in the snippet).
+  - `summary` - one sentence naming the mismatch.
+  - `why` - why it matters, in plain words, with a concrete example.
+  - `rule` - the habit a reviewer should take away.
+  - `fix` - what to change.
 - For an **already-correct** puzzle, use `findings: []` and (optionally) a `cleanNote: { why, rule }`.
 
 ### New symbols
@@ -55,7 +55,7 @@ If your snippet uses a symbol that is not already in the `glossary` near the top
 - [ ] Every finding has a `summary`, a `why`, a `rule`, and a `fix`.
 - [ ] Sentences are short, active, and idiom-free.
 - [ ] Nothing reads as blame, failure, or "wrong". No red is introduced.
-- [ ] The snippet is **original** — not copied from any real repository, book, or article.
+- [ ] The snippet is **original** - not copied from any real repository, book, or article.
 - [ ] Early-theme snippets stay tiny (minimal syntax, no loops).
 - [ ] Any new symbol used in the snippet has a `glossary` entry.
 - [ ] The `id` is new and unique.
