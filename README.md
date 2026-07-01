@@ -1,10 +1,10 @@
 # ReviewRanger
 
-**A free, offline, private web app that teaches absolute beginners to read and review code — and never, ever marks them wrong.**
+**A free, offline, private web app that teaches absolute beginners to read and review code and never, ever marks them wrong.**
 
 ReviewRanger is the patient guide a self-taught beginner never had. A learner reads a one-line *promise* ("Give the customer the cheaper of the two prices"), looks at a tiny snippet of code, and flags the line or lines that break the promise. Then a warm mentor voice walks them through it. There is no red, no "wrong", no failure sound, anywhere. The whole point is to leave the learner feeling they belong in engineering.
 
-It is built so that **anyone** — including teachers and volunteers with no coding background — can fork it, add their own puzzles by editing **one clearly marked file**, and publish it with a single commit. No build step. No server. No accounts. No tracking.
+It is built so that **anyone** - including teachers and volunteers with no coding background - can fork it, add their own puzzles by editing **one clearly marked file**, and publish it with a single commit. No build step. No server. No accounts. No tracking.
 
 ---
 
@@ -16,7 +16,7 @@ It is built so that **anyone** — including teachers and volunteers with no cod
 - The **core loop**: read the promise → flag the lines → get a kind, belonging-first reveal.
 - **24+ starter puzzles** across four review skills (intent vs code, the edges, the small slips, stale comments).
 - **On-device auto-save**, **named local profiles** for shared computers, and a **guest one-tap wipe**.
-- **Move between devices** with a copy-and-paste code or a QR picture — generated and read locally, with no server.
+- **Move between devices** with a copy-and-paste code or a QR picture - generated and read locally, with no server.
 - Installable **PWA**: works fully offline after the first load.
 
 ---
@@ -32,7 +32,7 @@ It is built so that **anyone** — including teachers and volunteers with no cod
 
 Then open the address it prints (for example `http://localhost:8000`).
 
-That is only for previewing on your machine. **Publishing needs no server and no build step at all** — GitHub Pages serves the files as they are.
+That is only for previewing on your machine. **Publishing needs no server and no build step at all** - GitHub Pages serves the files as they are.
 
 ---
 
@@ -44,7 +44,7 @@ That is only for previewing on your machine. **Publishing needs no server and no
 4. Choose the **`main`** branch and the **`/ (root)`** folder, then **Save**.
 5. Wait a minute. GitHub gives you a public link like `https://yourname.github.io/ReviewRanger/`. That is your live app.
 
-There is **no CI build** in the way. Whenever you commit a change (like a new puzzle), GitHub Pages republishes it, and the app — which uses a network-first service worker — picks up your change the next time it is online.
+There is **no CI build** in the way. Whenever you commit a change (like a new puzzle), GitHub Pages republishes it, and the app - which uses a network-first service worker - picks up your change the next time it is online.
 
 ---
 
@@ -56,9 +56,9 @@ You do **not** need to know how to program. You will edit one file, [`content.js
 
 Every puzzle has:
 
-- a **promise** — one plain sentence saying what the code is meant to do,
-- a **snippet** — the lines of code, written as a list,
-- **findings** — the problems hidden in the snippet (there can be one, several, or none).
+- a **promise** - one plain sentence saying what the code is meant to do,
+- a **snippet** - the lines of code, written as a list,
+- **findings** - the problems hidden in the snippet (there can be one, several, or none).
 
 Each finding has four short pieces: a **summary**, a **why**, a **rule** (the habit it teaches), and a **fix**.
 
@@ -66,7 +66,7 @@ Each finding has four short pieces: a **summary**, a **why**, a **rule** (the ha
 
 1. Open [`content.js`](content.js) in GitHub (click the file, then the pencil ✏️ to edit), or on your computer in any text editor.
 2. Find the theme you want, for example the part that starts with `id: "edges"`. Inside it is a list called `puzzles: [ ... ]`.
-3. **Copy a whole existing puzzle block** — everything from one `{` to its matching `},` — and paste it right next to the others, inside the same `puzzles: [ ... ]` list.
+3. **Copy a whole existing puzzle block** - everything from one `{` to its matching `},` - and paste it right next to the others, inside the same `puzzles: [ ... ]` list.
 4. Change the words inside the quote marks. Keep the words *outside* the quotes (like `promise:` and `snippet:`) exactly as they are.
 5. Give your puzzle a new, unique `id` (any short label, like `"edges-my-new-one"`).
 6. Save. On GitHub, that means writing a short note and clicking **Commit changes**.
@@ -82,7 +82,7 @@ These keep ReviewRanger kind, clear, and correct. The README and [`CONTRIBUTING.
 - **Plain English only.** Short sentences. Active voice. No idioms, no jargon, no sarcasm.
 - **Never anything that says "wrong".** No red, no blame, no "you failed". A flag that lands a little wide is still a careful eye.
 - **Write your own snippets.** Never copy code from a real project, a textbook, or a website. Make up something small and friendly, like the examples already in the file.
-- **Keep early puzzles tiny.** Minimal syntax, no loops, in the gentlest sets. Add new symbols only when a later puzzle needs them — and add a plain-English meaning for any new symbol to the `glossary` near the top of the file, so learners can tap it.
+- **Keep early puzzles tiny.** Minimal syntax, no loops, in the gentlest sets. Add new symbols only when a later puzzle needs them - and add a plain-English meaning for any new symbol to the `glossary` near the top of the file, so learners can tap it.
 - An **"already correct" puzzle** (with `findings: []`) is welcome. Knowing when code is fine is part of review too.
 
 ---
@@ -116,7 +116,7 @@ icons/                  app icons
 - **No backend, no server, no accounts, no email, nothing collected.** ReviewRanger never runs or pays for a server.
 - Progress is saved **only on the device**, in the browser.
 - **Named profiles** let several people share one computer without mixing their progress.
-- **Guest mode** has a one-tap wipe that clears `localStorage`, `IndexedDB`, and Cache Storage, leaving no trace — good for a library or school computer.
+- **Guest mode** has a one-tap wipe that clears `localStorage`, `IndexedDB`, and Cache Storage, leaving no trace - good for a library or school computer.
 - After the first load, the app works **fully offline**.
 
 ## Accessibility
@@ -128,7 +128,7 @@ ReviewRanger targets **WCAG 2.1 AA**. Keyboard-only and touch-only both complete
 ## Licenses and attribution
 
 - **Code:** [GPL-3.0](LICENSE).
-- **Content** (puzzles and learner-facing words): **CC BY-SA 4.0** — see [CONTENT-LICENSE.md](CONTENT-LICENSE.md).
+- **Content** (puzzles and learner-facing words): **CC BY-SA 4.0** - see [CONTENT-LICENSE.md](CONTENT-LICENSE.md).
 - Attribution string: **"ReviewRanger by Rahul Sahani and contributors."**
 
 Because there is no server, there is no data controller.
